@@ -12,7 +12,11 @@
     --white: #fff;
 }
 
-body {
+
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
     background: var(--night);
     color: var(--white-smoke);
     font-family: 'Segoe UI', Arial, sans-serif;
